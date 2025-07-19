@@ -1,0 +1,23 @@
+# Node modules - never commit this
+node_modules/
+
+# Environment config
+config/config.env
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Editor config files/folders (optional)
+.vscode/
+.idea/
+
+# Optional: OS temp files
+*.swp
